@@ -16,6 +16,7 @@
 		E227EBD12BB72A8F00B223A0 /* Lab_8_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227EBD02BB72A8F00B223A0 /* Lab_8_WeatherTests.swift */; };
 		E227EBDB2BB72A8F00B223A0 /* Lab_8_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227EBDA2BB72A8F00B223A0 /* Lab_8_WeatherUITests.swift */; };
 		E227EBDD2BB72A8F00B223A0 /* Lab_8_WeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227EBDC2BB72A8F00B223A0 /* Lab_8_WeatherUITestsLaunchTests.swift */; };
+		E227EBEC2BB733EA00B223A0 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227EBEB2BB733EA00B223A0 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E227EBD62BB72A8F00B223A0 /* Lab 8 WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab 8 WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E227EBDA2BB72A8F00B223A0 /* Lab_8_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_8_WeatherUITests.swift; sourceTree = "<group>"; };
 		E227EBDC2BB72A8F00B223A0 /* Lab_8_WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_8_WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E227EBEB2BB733EA00B223A0 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E227EBC22BB72A8F00B223A0 /* Assets.xcassets */,
 				E227EBC42BB72A8F00B223A0 /* LaunchScreen.storyboard */,
 				E227EBC72BB72A8F00B223A0 /* Info.plist */,
+				E227EBEB2BB733EA00B223A0 /* Weather.swift */,
 			);
 			path = "Lab 8 Weather";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E227EBEC2BB733EA00B223A0 /* Weather.swift in Sources */,
 				E227EBBE2BB72A8D00B223A0 /* ViewController.swift in Sources */,
 				E227EBBA2BB72A8D00B223A0 /* AppDelegate.swift in Sources */,
 				E227EBBC2BB72A8D00B223A0 /* SceneDelegate.swift in Sources */,
